@@ -1,0 +1,31 @@
+@import "./parciales/reset";
+@import "./parciales/header";
+@import "./parciales/body";
+@import "./parciales/nav";
+@import "./parciales/section";
+@import "./parciales/vistasP";
+@import "./parciales/areaC";
+@import "./parciales/contacto";
+@import "./parciales/footer";
+
+            
+
+
+
+
+
+.VistasProductos:hover{animation: true; transform: scale(1.1,1.1);
+    transition: 1s;}
+
+@media screen and (max-width: 768px) 
+    {.section {flex-direction: column;
+        justify-content: center;
+    align-items: center;} 
+.VistasProductos{ width: 80%;
+height: 50vw; 
+justify-content: center;
+align-items: center;}
+.VistasProductos img{width: 30vw;
+}
+}
+

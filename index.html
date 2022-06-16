@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CompuWork</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/main.css">
 
 </head>
 <body>
@@ -45,17 +45,28 @@
               </div>
         </section>
         <nav class="navB">
-            
-            <div class="notebooks"> <a href="./vistas/notebooks.html">Notebooks</a></div>
-            <div class="allinone"> <a href="./vistas/allinone.html" >All in one</a></div>
-            <div class="slim"> <a href="./vistas/slim.html" >Slim's</a></div>
-            <div class="midtowers"> <a href="./vistas/midtowers.html" >Mid-Towers</a></div>
-            
+            <div class="notebooks" class="container"> <a  role="button" class="desplegable" data-bs-toggle="collapse" href="#collapsable1" aria-expanded="false" aria-controls="collapsable1">Notebooks</a>
+             <div class="row">
+          <div class="content collapse collapsablearea1 col-4" id="collapsable1"><a href="./vistas/notebooks.html" >Programacion</a>
+              </div>
+              <div  class="content collapse collapsablearea1 col-4" id="collapsable1"><a href="./vistas/notebooks.html" class="col" col>Oficina</a>
+              </div>
+              <div class="content collapse collapsablearea1 col-4" id="collapsable1"><a href="./vistas/notebooks.html" >Arquitectura</a>
+              </div> </div> 
+          
+        <div class="allinone"> <a href="./vistas/allinone.html" class="desplegable">All in one</a></div>
+         
+          <div class="slim"> <a  role="button" class="desplegable" data-bs-toggle="collapse" href="#collapsable2" aria-expanded="false" aria-controls="collapsable2">Slim's</a>
+            <div class="content collapse collapsablearea1" id="collapsable2"><a href="./vistas/notebooks.html" >amd</a></div>
+            <div class="content collapse collapsablearea1" id="collapsable2"><a href="./vistas/notebooks.html" >intel</a></div></div></div>
+            <div class="midtowers"> <a  role="button" class="desplegable" data-bs-toggle="collapse" href="#collapsable3" aria-expanded="false" aria-controls="collapsable3">Mid-Towers</a>
+          <div class="content collapse collapsablearea1" id="collapsable3"><a href="./vistas/notebooks.html" >amd</a></div>
+          <div class="content collapse collapsablearea1" id="collapsable3"><a href="./vistas/notebooks.html" >intel</a></div></div>
         </nav>
     </main>
     <footer >
         <div class="d-flex justify-content-around"><a class="btn btn-primary" href="./vistas/contacto.html" role="button"  
-            style="--bs-btn-padding-y: 0vw; --bs-btn-padding-x: 2vw; --bs-btn-margin-y: 2vw; --bs-btn-font-size: 2vw;">Contactanos</a></div>     
+            style="--bs-btn-padding-y: 0vw; --bs-btn-padding-x: 2vw; --bs-btn-margin-y: 2vw; --bs-btn-font-size: 2vw;">Nosotros</a></div>     
         <div class="footertext"><section>Copyright © 1994 - 2022</section></div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
