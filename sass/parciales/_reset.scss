@@ -1,0 +1,27 @@
+* {margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;}
+
+a {text-decoration: none;
+    color: rgb(0, 30, 63);}
+
+div h4{font-family: 'Poppins', sans-serif;
+        font-size: x-large;}
+
+$tamtitulos:(
+            h1: 15rem,
+            h2: 10rem,
+            h3: 7rem,
+            h4: 4rem,
+            h5: 2rem,
+            h6: 2rem);
+        
+@each $tam, $size in $tamtitulos {
+            .tittle--#{$tam}{
+                font-size: $size;}}
+@mixin supercentro {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
