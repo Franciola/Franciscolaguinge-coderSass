@@ -231,7 +231,9 @@ footer {
   height: 7vw;
   padding: 1vw;
   z-index: 99 footer div;
-  }
+  z-index-height: 3vw;
+  z-index-width: 40vw;
+}
 footer div a {
   font-size: 4vw;
 }

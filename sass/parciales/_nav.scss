@@ -6,17 +6,12 @@
                             "allinone allinone allinone allinone"
                             "Slim Slim Slim Slim"
                             "Mid-Towers Mid-Towers Mid-Towers Mid-Towers";}
-.navb .row{margin-right: 0;
-    margin-left: 0;
-width: 100%;}
+
 
 @mixin menu ($grid){grid-area: $grid;
     border: solid rgb(0, 89, 185) 2px;}
 
-.categorias-div{justify-content: center;
-    align-items: center;
-        width: 100%;
-    }
+
 
 
 .notebooks {@include menu (notebook);
@@ -33,6 +28,6 @@ width: 100%
 .midtowers {@include menu (midtowers);
     @extend .fontS;}
 
-.fontS{font-size: 13vw}
+.fontS{font-size: 7vw}
 
-div .desplegable{font-size: 8vw;}
+

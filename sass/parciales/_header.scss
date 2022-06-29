@@ -12,14 +12,7 @@ header {position: relative;
         & h1 {font-size: 7vw;
             color: #002349;
             text-shadow: 3px 3px 3px white;
-                background-color: #879eb6;}
-        
-        .subtitulo{position: fixed;
-        top: 8rem;
-        z-index: 1;}
-        .subtitulo{
-                font-size: small;
-        }
+                background-color: #879eb6;}        
         
         & div p {font-size: 3vw;
             color: #002349;
@@ -32,3 +25,7 @@ header {position: relative;
                 }
         
         }
+.subtitulo{display: block;
+        text-align: center;
+        align-items: center;
+        background-color: #879eb6;}
