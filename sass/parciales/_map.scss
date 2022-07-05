@@ -5,7 +5,7 @@ $tamtitulos:(
     h4: 4rem,
     h5: 2rem,
     h6: 2rem
-    p: 1rem);
+    );
 
 @each $tam, $size in $tamtitulos {
     .tittle--#{$tam}{

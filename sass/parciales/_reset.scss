@@ -1,6 +1,4 @@
-* {
-    background-color: red;
-    margin: 0;
+* { margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -15,8 +13,7 @@ $tamtitulos:(
             h3: 7rem,
             h4: 4rem,
             h5: 2rem,
-            h6: 2rem
-            p: 1rem);
+            h6: 2rem);
         
 @each $tam, $size in $tamtitulos {
             .tittle--#{$tam}{
