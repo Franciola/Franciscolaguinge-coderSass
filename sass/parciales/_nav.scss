@@ -1,10 +1,17 @@
-nav{background-color: #879eb6;}
+.hr1{height: 10px;
+    background-color:rgb(226, 230, 233,);
+margin: 0;
+padding: 0;
+border: 0px;
+opacity: 1;
+}
 nav a{
     align-items: center;
+    justify-content: space-between;
     font-size: 2vw;
-    background-color: #6c8db1;
-    border-top: 2px solid #6c8db1;
-    border-top-right-radius: 1rem;
+    background-color: rgb(226, 230, 233,);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     
 }
 
