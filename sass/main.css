@@ -33,6 +33,9 @@ header div p {
   color: rgb(67, 86, 97);
   padding-bottom: 0, 5rem;
 }
+header .tituloimg {
+  width: 50vw;
+}
 
 body {
   background-color: rgb(157, 169, 175);
@@ -160,7 +163,7 @@ footer div:hover {
     width: 20vw;
   }
   nav a {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .subtitulo {
     font-size: 1rem;
