@@ -33,6 +33,10 @@ header div p {
   color: rgb(67, 86, 97);
   padding-bottom: 0, 5rem;
 }
+header .tituloimg {
+  height: 8rem;
+  width: auto;
+}
 
 body {
   background-color: rgb(157, 169, 175);
