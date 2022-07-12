@@ -24,8 +24,8 @@ header .titulo {
 }
 header h1 {
   font-size: 7vw;
+  text-decoration: none;
   color: rgb(226, 230, 233);
-  text-shadow: 3px 3px 3px white;
   background-color: rgb(67, 86, 97);
 }
 header div p {
@@ -44,6 +44,17 @@ body {
   overflow-x: hidden;
   height: 2rem;
   color: #879eb6;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: rgb(157, 169, 175);
+  border-color: rgb(157, 169, 175);
+  text-decoration: none;
+  color: rgb(0, 30, 63);
 }
 
 .hr1 {
@@ -74,6 +85,11 @@ nav a {
 
 .fotos {
   width: 20vw;
+}
+
+.cuadricula {
+  margin: 0.5rem;
+  box-shadow: 3px gray;
 }
 
 .contactomain {

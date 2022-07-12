@@ -5,3 +5,13 @@ body {
 .hr{ overflow-x: hidden;
         height: 2rem;
     color:#879eb6}
+    .btn-primary,
+    .btn-primary:hover,
+    .btn-primary:active,
+    .btn-primary:visited,
+    .btn-primary:focus {
+        background-color: rgb(157, 169, 175);
+        border-color: rgb(157, 169, 175);
+        text-decoration: none;
+        color: rgb(0, 30, 63);
+    }
