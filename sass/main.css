@@ -83,7 +83,8 @@ nav a {
 }
 
 .bloque {
-  width: 50vw;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .fotos {
@@ -96,7 +97,7 @@ nav a {
 
 .fondo {
   width: 55%;
-  padding-left: 2rem;
+  padding: 1rem;
 }
 
 .s-titulo {
@@ -139,7 +140,7 @@ footer div a {
 }
 footer .footertext {
   text-align: center;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 footer div:hover {
   -webkit-animation: true;
@@ -181,5 +182,23 @@ footer div:hover {
   }
   h4 strong {
     font-size: 1rem;
+  }
+  .fondo {
+    width: 100%;
+    padding: 1rem;
+  }
+  .s-descripcion {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+  }
+  footer {
+    height: 3rem;
+    padding: 0.5rem;
+  }
+  footer div a {
+    font-size: 1.2rem;
+  }
+  footer .footertext {
+    font-size: 1.2;
   }
 }/*# sourceMappingURL=main.css.map */
