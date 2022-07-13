@@ -89,6 +89,44 @@ nav a {
 
 .fotos {
   width: 20vw;
+  height: 20vw;
+}
+
+.cardcont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23vw;
+  height: 23vw;
+}
+
+.thecard {
+  width: 20vw;
+  height: 20vw;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.thecard:hover {
+  transform: rotateY(180deg);
+}
+
+.thefront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.theback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform: rotateY(180deg);
 }
 
 .contactomain {
