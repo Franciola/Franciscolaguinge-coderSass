@@ -60,6 +60,10 @@ body {
   color: rgb(0, 30, 63);
 }
 
+section {
+  width: 100vw;
+}
+
 .hr1 {
   height: 10px;
   background-color: rgb(226, 230, 233);
@@ -238,5 +242,8 @@ footer div:hover {
   }
   footer .footertext {
     font-size: 1.2;
+  }
+  .mqmar {
+    margin: 5vw;
   }
 }/*# sourceMappingURL=main.css.map */
